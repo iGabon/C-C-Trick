@@ -1,3 +1,5 @@
+//测试多个构造函数的作用
+
 #include<iostream>
 #include<string>
 
