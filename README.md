@@ -6,4 +6,6 @@ operator.cpp 主要用来测试operator关键字，程序中主要进行了输�
 construct.cpp 程序主要是用来测试构造函数的编写与使用
 /copy_construct/*   主要是用来测试复制构造函数的编写与使用
 /char shift/  其中的程序主要是字符串移位操作
-           /           
+           /left_shift.cpp 字符串左移操作
+		   /nonneighborBlock_exchange.cpp ABC转换成CBA,方法原理与STL中的rotate方法类似           
+		   /nonneighborBlock_exchange_improve.cpp ABC转换成CBA，方法为(A^B^C^)^=CBA,其中^为逆序符号           
