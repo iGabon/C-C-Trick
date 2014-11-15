@@ -27,16 +27,10 @@ void setRand(set<int>& num,int m,int n)
 {
 	srand(time(0));
 	int temp;
-	while(m)
+	while(num.size() < m)
 	{
-			temp = rand();
-			temp = temp%n;
-			if(!num.count(temp))
-			{
-				num.insert(temp);
-				m--;
-			}
-
+			temp = rand()%n;
+			num.insert(temp);
 	}
 }
 
@@ -48,7 +42,7 @@ void swapRand(vector<int>& num,int m,int n)
 		{
 				num.push_back(i);
 		}
-	int t;	
+    	int t;	
 		for(int j = 0;j < m;++j)
 		{
 				t = j+rand()%(n-j);
@@ -56,7 +50,7 @@ void swapRand(vector<int>& num,int m,int n)
 				num[j] = num[t];
 				num[t] = temp;
 		}
-		sort(num.begin(),num.end());
+		sort(num.begin(),num.begin()+m);
 }
 
 
