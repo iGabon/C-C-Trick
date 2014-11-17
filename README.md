@@ -28,3 +28,4 @@ bitset.cpp 程序主要是解决编程珠玑第一章习题2：用位逻辑运�
 
 		   /nonneighborBlock_exchange_improve.cpp ABC转换成CBA，方法为(A^B^C^)^=CBA,其中^为逆序符号           
 
+/string_match/Rabin_Karp.cpp  Rabin_Karp.cpp解决字符串匹配问题
