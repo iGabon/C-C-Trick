@@ -22,6 +22,8 @@
 
                              /regex.cpp 程序主要是解决编程珠玑第三章习题5：找出单词的模式，使用的方法为正则表达式匹配法，声明：gcc4.8不支持此程序，在创建regex对象式报错，原因不明，在gcc4.9中运行正常
 
+                   /chapter4/binary_search.cpp 程序主要解决编程珠玑第四章习题4：二分查找
+
 /char shift/left_shift.cpp 字符串左移操作
 
 	    	   /nonneighborBlock_exchange.cpp ABC转换成CBA,方法原理与STL中的rotate方法类似           
@@ -29,3 +31,5 @@
 		       /nonneighborBlock_exchange_improve.cpp ABC转换成CBA，方法为(A^B^C^)^=CBA,其中^为逆序符号           
 
 /string_match/Rabin_Karp.cpp  Rabin_Karp.cpp解决字符串匹配问题
+ 
+             /automaton_matcher.cpp 有限自动机解决字符串匹配问题
