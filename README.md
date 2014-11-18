@@ -33,3 +33,5 @@
 /string_match/Rabin_Karp.cpp  Rabin_Karp.cpp解决字符串匹配问题
  
              /automaton_matcher.cpp 有限自动机解决字符串匹配问题
+
+             /KMP.cpp KMP解决字符串匹配问题
