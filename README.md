@@ -35,3 +35,5 @@
              /automaton_matcher.cpp 有限自动机解决字符串匹配问题
 
              /KMP.cpp KMP解决字符串匹配问题
+
+/string/reverse_link.cpp O(n)时间解决单链表翻转问题
