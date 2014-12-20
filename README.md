@@ -39,3 +39,5 @@
              /KMP.cpp KMP解决字符串匹配问题
 
 /string/reverse_link.cpp O(n)时间解决单链表翻转问题
+
+lu_descomposition.cpp  程序主要用来计算矩阵的LU分解
