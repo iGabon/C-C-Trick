@@ -12,6 +12,8 @@
 
          /copy_construct/*   主要是用来测试复制构造函数的编写与使用
 
+        /config.cpp  程序主要用来测试template参数可否根据前一个template参数而设定默认值
+
 ./Programming Pearls/chapter1/rand.cpp 程序主要是解决编程珠玑第一章的练习题4,采用了三种方法生成1000000个介于0到10000000之间的有序的随机数
 
                               /bitset.cpp 程序主要是解决编程珠玑第一章习题2：用位逻辑运算来实现位向量
